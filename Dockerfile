@@ -1,4 +1,4 @@
 FROM debian
-COPY build/bin/gvm-native-demo /app/gvm-native-demo
+COPY build/artifacts/gvm-native-demo /app/gvm-native-demo
 WORKDIR /app
 CMD ./gvm-native-demo
